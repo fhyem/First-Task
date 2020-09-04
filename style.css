@@ -1,0 +1,137 @@
+html {
+    color: #222;
+    font-size: 1em;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+    background-color: aquamarine;
+}
+
+#content {
+    padding: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+
+}
+
+#header {
+    width: 35%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(74, 158, 106);
+    display: inline-block;
+    float: right;
+    width: 60%;
+}
+
+img {
+    max-width: 200px;
+    float: left;
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(74, 158, 106);
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid gray;
+    background: rgb(201, 177, 70);
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+
+
+nav li {
+    /* display li items inline */
+    display: inline-block;
+}
+
+
+
+/* Contact Form */
+.my-form {
+    padding: 30px;
+    margin: 0 300px;
+}
+
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"] {
+    padding: 8px;
+    width: 100%;
+}
+
+.my-form textarea {
+    width: 100%;
+}
+
+.my-form div {
+    padding: 5px;
+    
+}
+
+.my-form input[type="submit"] {
+     background-color: #333;
+     color: #fff;
+     padding: 10px 15px;
+     border: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #header {
+        width: 100%;
+    }
+    
+    nav {
+        background-color: rgb(74, 158, 106);
+        width: 100%;
+        padding: 0px;
+    }
+
+    nav a {
+        padding:10;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0;
+        background-color: aquamarine;
+    }
+    
+}
